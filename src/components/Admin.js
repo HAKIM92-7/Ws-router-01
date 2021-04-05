@@ -1,0 +1,30 @@
+import React from 'react'
+import {Redirect} from 'react-router-dom'
+
+
+
+
+const Admin = ({isConnected}) => {
+    return (
+       
+       <div>
+    
+
+    {  
+
+    
+    isConnected ? (<h1>This is the Admin page</h1>) : (<Redirect to="/"/>)
+
+
+
+
+
+    }
+    
+
+            
+        </div>
+    )
+}
+
+export default Admin
